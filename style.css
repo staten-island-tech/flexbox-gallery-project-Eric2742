@@ -1,0 +1,31 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0 3rem 0;
+}
+
+.box {
+  color: FBF9FF;
+  background-color: B3B7EE;
+  text-align: center;
+  font-size: 3rem;
+  width: 20%;
+  height: 50vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border: 3px dotted #9395d3;
+}
