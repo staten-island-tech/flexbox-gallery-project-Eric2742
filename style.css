@@ -5,6 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Gemunu Libre";
 }
 
 .rows {
@@ -14,18 +15,22 @@ body,
 }
 
 .box {
-  color: FBF9FF;
-  background-color: B3B7EE;
+  color: #fbf9ff;
+  background-color: #b3b7ee;
   text-align: center;
-  font-size: 3rem;
-  width: 20%;
+  font-size: 4rem;
+  width: 30%;
   height: 50vh;
+  border: 0.1rem solid #6c91bf;
+  box-shadow: 1rem 1rem 0.5rem rgba(160, 97, 212, 0.226);
 }
 
 h1 {
   text-align: center;
+  font-size: 8rem;
 }
 
 h2 {
-  border: 3px dotted #9395d3;
+  border-bottom: 3px dotted #9395d3;
+  background-color: #7880b5;
 }
