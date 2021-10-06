@@ -5,6 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: cornflowerblue;
   font-family: "Gemunu Libre";
 }
 
@@ -15,22 +16,68 @@ body,
 }
 
 .box {
-  color: #fbf9ff;
+  color: #cdc8f6;
   background-color: #b3b7ee;
   text-align: center;
   font-size: 4rem;
   width: 30%;
-  height: 50vh;
-  border: 0.1rem solid #6c91bf;
-  box-shadow: 1rem 1rem 0.5rem rgba(160, 97, 212, 0.226);
+  height: 60vh;
+  border: thin solid black;
+  box-shadow: 2rem 2rem 2rem #998af1;
+}
+
+.container {
+  margin: 5% auto 0 auto;
+  width: 95%;
+  height: 60%;
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-position: center 25%;
 }
 
 h1 {
+  color: #133c55;
   text-align: center;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 h2 {
-  border-bottom: 3px dotted #9395d3;
-  background-color: #7880b5;
+  background-color: #858cbb;
+}
+
+#box-1 {
+  background-image: url(img/Bean-Burrito.jpg);
+}
+
+#box-2 {
+  background-image: url(img/Waffle-Sandwich.jpg);
+}
+
+#box-3 {
+  background-image: url(img/Pizza.png);
+}
+
+#box-4 {
+  background-image: url(img/Chicken-Tenders.jpg);
+}
+
+#box-5 {
+  background-image: url(img/Chicken-Dumplings.jpg);
+}
+
+#box-6 {
+  background-image: url(img/Mozzarella-Sticks.jpg);
+}
+
+#box-7 {
+  background-image: url(img/Chicken.jpg);
+}
+
+#box-8 {
+  background-image: url(img/PB-and-J.jpeg);
+}
+
+#box-9 {
+  background-image: url(img/Fruits.jpg);
 }
