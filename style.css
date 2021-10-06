@@ -26,6 +26,11 @@ body,
   box-shadow: 2rem 2rem 2rem #998af1;
 }
 
+.box:hover {
+  transform: scale(1.2);
+  box-shadow: 3rem 3rem 6rem #998af1;
+}
+
 .container {
   margin: 5% auto 0 auto;
   width: 95%;
@@ -44,6 +49,14 @@ h1 {
 
 h2 {
   background-color: #858cbb;
+}
+
+p {
+  color: #8b8bae;
+  background-color: #b3b7ee;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 #box-1 {
