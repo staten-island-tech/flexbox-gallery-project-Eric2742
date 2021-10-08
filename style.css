@@ -13,10 +13,12 @@ body {
 }
 
 main {
-  margin: 3rem 0 3rem 0;
-  justify-items: space-around;
+  justify-content: space-evenly;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 5rem 0 5rem 0;
 }
 
 .box {
@@ -25,9 +27,15 @@ main {
   text-align: center;
   font-size: 4rem;
   width: 30%;
-  height: 60%;
+  height: 60vh;
   border: thin solid black;
   box-shadow: 2rem 2rem 2rem #998af1;
+  transition: all 0.3s;
+}
+
+.box:hover {
+  transform: rotatez(180deg);
+  box-shadow: 1rem 1rem 1rem #998af1;
 }
 
 .container {
