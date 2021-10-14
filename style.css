@@ -30,10 +30,30 @@ main {
   height: 60vh;
   border: thin solid black;
   box-shadow: 2rem 2rem 2rem #998af1;
-  transition: all 0.3s;
+  transition: all 1s;
 }
 
-.box:hover {
+.ani1:hover {
+  transform: rotatex(360deg);
+  box-shadow: 1rem 1rem 1rem #2f12d4;
+}
+
+.ani2:hover {
+  transform: rotatey(360deg);
+  box-shadow: 1rem 1rem 1rem #34287a;
+}
+
+.ani3:hover {
+  transform: rotatez(360deg);
+  box-shadow: 1rem 1rem 1rem #2e2a46;
+}
+
+.ani4:hover {
+  transform: rotatez(180deg);
+  box-shadow: 1rem 1rem 1rem #e8e8e9;
+}
+
+.ani5:hover {
   transform: rotatez(180deg);
   box-shadow: 1rem 1rem 1rem #998af1;
 }
@@ -66,38 +86,41 @@ p {
   margin-top: 2rem;
 }
 
-#box-1 {
+#pic-1 {
   background-image: url(img/Bean-Burrito.jpg);
 }
 
-#box-2 {
+#pic-2 {
   background-image: url(img/Waffle-Sandwich.jpg);
 }
 
-#box-3 {
+#pic-3 {
   background-image: url(img/Pizza.png);
 }
 
-#box-4 {
+#pic-4 {
   background-image: url(img/Chicken-Tenders.jpg);
 }
 
-#box-5 {
+#pic-5 {
   background-image: url(img/Chicken-Dumplings.jpg);
 }
 
-#box-6 {
+#pic-6 {
   background-image: url(img/Mozzarella-Sticks.jpg);
 }
 
-#box-7 {
+#pic-7 {
   background-image: url(img/Chicken.jpg);
 }
 
-#box-8 {
+#pic-8 {
   background-image: url(img/PB-and-J.jpeg);
 }
 
-#box-9 {
+#pic-9 {
   background-image: url(img/Fruits.jpg);
+}
+
+@media screen and (max-width: ) {
 }
