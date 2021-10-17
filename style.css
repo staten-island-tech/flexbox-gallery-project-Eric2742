@@ -163,6 +163,10 @@ p {
     width: 45%;
   }
 
+  p {
+    font-size: 2rem;
+  }
+
   #b1:hover {
     transform: scale(1.2) rotatex(360deg) rotateZ(360deg);
     border: 0.4rem dotted rgb(82, 111, 207);
