@@ -173,47 +173,47 @@ main:hover .box:not(:hover) {
   }
 
   #b1:hover {
-    transform: rotatex(360deg) rotateZ(360deg);
+    transform: scale(1.2) rotatex(360deg) rotateZ(360deg);
     border: 0.4rem dotted rgb(82, 111, 207);
   }
 
   #b2:hover {
-    transform: skewX(5deg);
+    transform: scale(1.2) skewX(5deg);
     border: 0.4rem dotted rgb(44, 172, 211);
   }
 
   #b3:hover {
-    transform: rotatex(360deg);
+    transform: scale(1.2) rotatex(360deg);
     border: 0.4rem dotted rgb(126, 76, 219);
   }
 
   #b4:hover {
-    transform: rotatey(-360deg);
+    transform: scale(1.2) rotatey(-360deg);
     border: 0.4rem dotted rgb(199, 24, 190);
   }
 
   #b5:hover {
-    transform: skewY(5deg);
+    transform: scale(1.2) skewY(5deg);
     border: 0.4rem dotted rgb(82, 85, 219);
   }
 
   #b6:hover {
-    transform: rotatez(360deg);
+    transform: scale(1.2) rotatez(360deg);
     border: 0.4rem dotted rgb(114, 35, 151);
   }
 
   #b7:hover {
-    transform: rotatey(360deg) rotateZ(360deg);
+    transform: scale(1.2) rotatey(360deg) rotateZ(360deg);
     border: 0.4rem dotted rgb(89, 133, 173);
   }
 
   #b8:hover {
-    transform: skewX(-5deg);
+    transform: scale(1.2) skewX(-5deg);
     border: 0.4rem dotted rgb(161, 127, 224);
   }
 
   #b9:hover {
-    transform: rotatey(360deg) rotatez(360deg);
+    transform: scale(1.2) rotatey(360deg) rotatez(360deg);
     border: 0.4rem dotted rgb(45, 88, 231);
   }
 
