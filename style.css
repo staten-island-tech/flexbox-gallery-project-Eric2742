@@ -151,11 +151,12 @@ p {
   border: 0.4rem dotted rgb(45, 88, 231);
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2050px) {
   main {
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    gap: 10rem;
     align-items: center;
   }
 
