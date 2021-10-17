@@ -216,6 +216,10 @@ main:hover .box:not(:hover) {
     transform: rotatey(360deg) rotatez(360deg);
     border: 0.4rem dotted rgb(45, 88, 231);
   }
+
+  main:hover .box:not(:hover) {
+    opacity: 0.5;
+  }
 }
 
 @media screen and (max-width: 1000px) {
