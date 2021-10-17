@@ -156,7 +156,7 @@ p {
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 4rem;
     align-items: center;
   }
 
