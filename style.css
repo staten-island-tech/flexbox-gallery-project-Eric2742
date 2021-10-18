@@ -152,9 +152,6 @@ p {
 
 @media screen and (max-width: 1600px) {
   main {
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
     gap: 4rem;
     align-items: center;
   }
